@@ -1,0 +1,7 @@
+1... blade-snippets
+2... blade-spacer
+3... emmet
+4... file-icons
+5... language-blade
+6... language-vue
+7... vuejs2-snippets
