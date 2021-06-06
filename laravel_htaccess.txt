@@ -1,3 +1,13 @@
+//redirect index route with ssl
+<IfModule mod_rewrite.c>
+    RewriteEngine On        
+    RewriteCond %{HTTPS} !=on    
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+
+// Redirect index route without ssl
 <IfModule mod_rewrite.c>
   RewriteEngine on
   RewriteCond %{REQUEST_FILENAME} !-f
