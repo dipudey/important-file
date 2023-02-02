@@ -6,3 +6,4 @@
 3. [Laravel .htaccess file to apache server](https://github.com/dipudey/important-filey/blob/master/laravel_htaccess.txt)
 4. [Nginx dynamic file and floder permission sh script](https://github.com/dipudey/important-filey/blob/master/nginx-permission.sh)
 5. [Atom editor package list](https://github.com/dipudey/important-filey/blob/master/Atompackage.txt)
+5. [Bangladesh all bank list json file](https://github.com/dipudey/important-filey/blob/master/bd_bank_list.json)
